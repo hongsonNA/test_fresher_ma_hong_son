@@ -1,6 +1,6 @@
 <?php
 function default_bai1(){
-    $input = [];
+   $input = [11,2,8,10,5,99,1,8,9];
     $count_array = count($input);
     $n = ceil($count_array / 3);
     $output = [];
@@ -19,7 +19,7 @@ function default_bai1(){
 
 
 function default_bai2(){
-    $input = [];
+    $input = [0,100,-4,8,143,5,99,100];
 
     $number_1 = $input[0];
     $number_2 = $input[1];
